@@ -1,0 +1,11 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^http://localhost"
+    },
+    {
+      "pattern": "^release-notes/templates/" // ignore links in docs directory
+    }
+  ],
+  "aliveStatusCodes": [429, 200]
+}
